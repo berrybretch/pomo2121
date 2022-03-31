@@ -1,0 +1,68 @@
+body{
+    background-color: #2b2b2b;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .pomodoro_timer{
+    display: flex;
+    flex-direction: row;
+    background-color: inherit;
+    border:2px solid whitesmoke;
+    border-radius: 4px;
+    flex: 1 300px;
+    margin: 1%;
+  }
+  .tasks{
+    background-color: inherit;
+    border: 2px solid whitesmoke;
+    border-radius: 4px;
+    flex: 1 500px;
+    display: flex;
+    margin: 1%;
+  }
+  #study_timer{
+    color: whitesmoke;
+    flex: 1;
+    border-right: 2px solid whitesmoke;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1%;
+    margin-bottom: 1%
+}
+  #break_timer{
+    color: whitesmoke;
+    flex: 1;
+    border-left: 2px solid whitesmoke;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+  .stuff{
+      display: flex;
+      flex-direction:column      
+  }
+  #time_form{
+      flex:1
+  }
+  #pause_play{
+      flex: 0.5;
+      background-color: purple;
+      border-radius:3px;
+      margin: 10%;
+      text-align: center;
+      vertical-align: middle;
+  }
+  #pause_play::-moz-selection{
+      background-color:transparent;
+      color:#000;
+  }
+  #pause_play::selection{
+    background-color:transparent;
+    color:#000;
+  }
+  button{
+      width: 50px;
+      height: 50px;
+  }
